@@ -1,0 +1,18 @@
+/*28.	Convert years into days and months*/
+#include <stdio.h>
+void main()
+{
+	int years,month,day;
+	printf("Enter years:");
+	scanf("%d",&years);
+	
+	//every year has 12 months right
+	month= years * 12;
+	//and lets assume every month has 30 days
+	day= month * 30;
+	
+	printf("\nYears you enter :%d",years);
+	printf("\nMonths it has : %d",month);
+	printf("\tdays it has : %d",day);
+	
+}
