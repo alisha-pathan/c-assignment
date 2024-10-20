@@ -40,13 +40,12 @@ int main()
 					num=num/10;
 					digit++;
 				}
-				for(i=copy; copy!=0; i++)
+				for(i=copy; copy!=0; i=i/10)
 				{
 						while(copy!=0)
 						{
-							rem = copy%10;
-							power += pow(rem,digit);
-							copy=copy/10;//copy/=10
+							rem = i % 10;
+                                                        power += pow(rem, digit);
 						}
 					if(power==copy2)
 						{
