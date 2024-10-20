@@ -42,8 +42,6 @@ int main()
 				}
 				for(i=copy; copy!=0; i=i/10)
 				{
-						while(copy!=0)
-						{
 							rem = i % 10;
                                                         power += pow(rem, digit);
 						}
