@@ -1,4 +1,9 @@
 //A=65, z=90
+ a 
+ b  c 
+ d  e  f 
+ g  h  i  j 
+ k  l  m  n  o 
 #include<stdio.h>
 int main()
 {
